@@ -1,4 +1,4 @@
-# statefull_stateless_widgets
+# stateful_stateless_widgets
 
 This project demonstrates the differences between **StatelessWidget** and **StatefulWidget** in Flutter by building a simple counter app in two versions.
 
@@ -22,3 +22,23 @@ This project demonstrates the differences between **StatelessWidget** and **Stat
 - **StatefulWidget**  
   - Ideal for interactive elements where state changes dynamically (e.g., forms, counters, toggles).
   - Uses the `setState` method to trigger UI updates when state changes.
+
+## Cara Menjalankan Aplikasi
+
+1. Jalankan aplikasi menggunakan perintah berikut di terminal:
+   ```bash
+   flutter run
+   
+## Cara Beralih Antara Versi StatelessWidget dan StatefulWidget
+
+### Untuk StatelessWidget:
+Pastikan baris berikut di file `main.dart` **tidak dikomentari**:
+```dart
+runApp(MyStatelessApp());
+```
+
+### Untuk StatefulWidget:
+Pastikan baris berikut di file `main.dart` **tidak dikomentari**:
+```dart
+runApp(MyStatefulWidgetApp());
+```
