@@ -22,6 +22,3 @@ This project demonstrates the differences between **StatelessWidget** and **Stat
 - **StatefulWidget**  
   - Ideal for interactive elements where state changes dynamically (e.g., forms, counters, toggles).
   - Uses the `setState` method to trigger UI updates when state changes.
-
-
-
