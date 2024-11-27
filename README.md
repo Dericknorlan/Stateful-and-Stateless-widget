@@ -24,10 +24,9 @@ This project demonstrates the differences between **StatelessWidget** and **Stat
   - Uses the `setState` method to trigger UI updates when state changes.
 
 ## Cara Menjalankan Aplikasi
-
-1. Jalankan aplikasi menggunakan perintah berikut di terminal:
-   ```bash
-   flutter run
+ ```bash
+   flutter run //jalankan kode ini pada terminal 
+ ```
    
 ## Cara Beralih Antara Versi StatelessWidget dan StatefulWidget
 
